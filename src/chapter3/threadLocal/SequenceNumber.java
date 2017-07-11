@@ -1,5 +1,10 @@
 package chapter3.threadLocal;
 
+/**
+ * ThreadLocal¿ÌΩ‚
+ * @author 95129
+ *
+ */
 public class SequenceNumber {
 	private static ThreadLocal<Integer> seqNum = new ThreadLocal<Integer>() {
 		public Integer initialValue() {
